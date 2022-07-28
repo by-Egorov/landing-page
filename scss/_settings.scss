@@ -1,0 +1,17 @@
+$pomegranate: #f44336;
+$midnight: #000c24;
+$mountainMist: #928a97;
+$white: #fff;
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	background: url('../images/background.png') 0 0/auto auto no-repeat;
+	// background: url('../images/rotate-bcg.png') 0px 300px/ auto auto no-repeat;
+}
+
+p {
+	font-size: 24px;
+	font-weight: 41px;
+	color: $midnight;
+}

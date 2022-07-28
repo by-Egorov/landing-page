@@ -1,1 +1,60 @@
-@import './nullstyle'
+@import './nullstyle';
+@import './settings';
+@import './menu';
+@import './about';
+
+
+
+header {
+	width: 100%;
+	width: 100vh;
+	position: relative;
+	background-image: url('../images/bcg-header.png');
+	background-repeat: no-repeat;
+	background-size: 164px 113px;
+	background-position: 32px 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.author {
+	display: flex;
+	flex-direction: column;
+	margin-top: 220px;
+	margin-left: 104px;
+	span {
+		font-weight: 600;
+		font-size: 24px;
+		line-height: 27px;
+		color: $white;
+		display: inline-block;
+		margin-bottom: 35px;
+	}
+
+	&__title {
+		font-family: 'Rampart One', cursive;
+		font-weight: 800;
+		font-size: 38px;
+		line-height: 43px;
+		letter-spacing: 0.3em;
+		color: $white;
+		display: inline-block;
+		margin-bottom: 16px; 
+	}
+
+	&__social {}
+
+	&__social-list {
+		display: flex;
+	}
+
+	&__social-item {
+		margin-left: 18px;
+		&:first-child {
+			margin-left: 0;
+		}
+	}
+
+	&__social-link {}
+}
