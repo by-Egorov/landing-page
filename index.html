@@ -2,67 +2,50 @@
 <html lang="ru">
 
 <head>
-	<meta charset="utf-8">
-	<title>My site</title>
-	<meta name="description" content="Simple Starter Description">
-	<meta name="viewport"
-		content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-	<meta property="og:image" content="images/preview.jpg">
-	<link rel="icon" href="">
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet">
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Rampart+One&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="./css/style.css">
-	<link rel="stylesheet" href="./css/media.css">
+    <meta charset="utf-8">
+    <title>My site</title>
+    <meta name="description" content="Simple Starter Description">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta property="og:image" content="images/preview.jpg">
+    <link rel="icon" href="">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media.css">
 </head>
 
 <body>
 
-	<header>
-		<nav class="menu">
-			<ul class="menu__list">
-				<li class="menu__item active"><a href="index.html" class="menu__link">Главная</a></li>
-				<li class="menu__item"><a href="#about" class="menu__link">Обо мне</a></li>
-				<li class="menu__item"><a href="#skills" class="menu__link">Навыки</a></li>
-				<li class="menu__item"><a href="#works" class="menu__link">Работы</a></li>
-				<li class="menu__item"><a href="#contact" class="menu__link">Контакты</a></li>
-			</ul>
-		</nav>
-		<div class="author">
-			<div class="author__title">by Egorov</div>
-			<span>Front-end Developer</span>
-			<div class="author__social">
-				<ul class="author__social-list">
-					<li class="author__social-item"><a href="#" class="author__social-link"><img
-								src="./images/social/twitter.svg" alt="twitter"></a></li>
-					<li class="author__social-item"><a href="#" class="author__social-link"><img
-								src="./images/social/github.svg" alt="github"></a></li>
-					<li class="author__social-item"><a href="#" class="author__social-link"><img
-								src="./images/social/linkedin.svg" alt="linkedin"></a></li>
-					<li class="author__social-item"><a href="#" class="author__social-link"><img
-								src="./images/social/instagram.svg" alt="instagram"></a></li>
-				</ul>
-			</div>
-		</div>
+<div class="header">
+    <div class="container">
+        <div class="header__inner">
+            <div class="header__logo">GoTrip</div>
+            <div class="header__menu menu">
+                <ul class="menu__list">
+                    <li class="menu__item"><a href="#" class="menu__link">Home</a></li>
+                    <li class="menu__item"><a href="#" class="menu__link">Services</a></li>
+                    <li class="menu__item"><a href="#" class="menu__link">Pricing</a></li>
+                    <li class="menu__item"><a href="#" class="menu__link">Contact</a></li>
+                </ul>
+            </div>
+            <div class="header__button">
+                <div class="header__button-normal">
+                    <a href="#">Sign up</a>
+                </div>
+                <div class="header__button-active btn">
+                    <a href="#">Login</a>
+                </div>
+            </div>
+        </div>
+        <div class="header__content"></div>
+        <div class="header__img">
+            <img src="./images/header-photo.png" alt="">
+        </div>
+    </div>
+</div>
 
-	</header>
-	<section class="about" id="about">
-		<div class="about__photo">
-			<img src="./images/negative.jpg" alt="">
-		</div>
-		<div class="about__content">
-			<div class="about__content-title">About Me</div>
-			<div class="about__content-text">An inquisitive Computer Science Engineering student, skilled in leadership, seeking to leverage solid development skills with focus on collaboration, communication and passion.</div>
-			<div class="about__content-button">
-				<button>Download CV</button>
-			</div>
-		</div>
-	</section>
-	<script src="libs/jquery/jquery-3.6.0.min.js" defer></script>
-	<script src="js/common.js" defer></script>
+
+<script src="libs/jquery/jquery-3.6.0.min.js" defer></script>
+<script src="js/common.js" defer></script>
 </body>
 
 </html>
