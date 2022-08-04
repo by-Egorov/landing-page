@@ -1,0 +1,12 @@
+.slider {
+	&__item {
+		width: 335px;
+		height: 402px;
+		object-fit: cover;
+		border-radius: 35px;
+		&.active {
+			width: 350px;
+			height: 456px;
+		}
+	}
+}

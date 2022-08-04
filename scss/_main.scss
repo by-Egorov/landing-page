@@ -1,0 +1,51 @@
+.destinations {
+	padding: 96px 0 100px;
+	overflow-x: hidden;
+
+	&__row {
+		display: flex;
+		column-gap: 50px;
+	}
+
+	&__content {
+		max-width: 456px;
+	}
+
+	&__title {
+		& span {
+			font-size: 30px;
+			line-height: 35px;
+		}
+	}
+
+	&__text {
+		margin-bottom: 60px;
+	}
+
+	&__btn {
+		display: inline-block;
+		padding: 25px 45px;
+		background: $backgroundBtn;
+		color: $colorWhite;
+		border-radius: 27px;
+		font-size: 15px;
+		font-weight: 500;
+		cursor: pointer;
+		transition: color .3s ease-in-out;
+	
+		&:hover {
+			color: #ece1be;
+			transition: color .3s ease-in-out;
+		}
+	
+		&:active {
+			position: relative;
+			top: 1px;
+		}
+	}
+
+	&__slider {
+		width: 1110px;
+		flex-shrink: 0;
+	}
+}

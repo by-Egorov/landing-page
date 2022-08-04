@@ -1,0 +1,52 @@
+.header {
+	&__content {
+		z-index: 1;
+		padding-top: 86px;
+		min-width: 592px;
+		max-width: 592px;
+		background-image: url('../images/el-2.svg');
+		background-repeat: no-repeat;
+		background-position: bottom right;
+	}
+
+	&__title {
+		margin-bottom: 30px;
+	}
+
+	&__badge {
+		display: inline-block;
+		padding: 11px 30px;
+		font-size: 18px;
+		line-height: 27px;
+		font-weight: 500;
+		background: $colorWhiteRgba;
+		border-radius: 15px;
+		margin-bottom: 7px;
+	}
+
+	&__text {
+		margin-bottom: 68px;
+	}
+
+	&__btn {
+		display: inline-block;
+		padding: 27px 47px;
+		background: $backgroundBtn;
+		color: $colorWhite;
+		border-radius: 27px;
+		font-size: 15px;
+		font-weight: 500;
+		cursor: pointer;
+		transition: color .3s ease-in-out;
+
+		&:hover {
+			color: #ece1be;
+			transition: color .3s ease-in-out;
+		}
+
+		&:active {
+			position: relative;
+			top: 1px;
+		}
+	}
+}

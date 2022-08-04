@@ -1,4 +1,5 @@
 {
-	"editor.fontFamily": "'Source Code Pro', 'Courier New', monospace",
-	"editor.fontSize": 16
+	"editor.fontFamily": "'Monaco', 'Courier New', monospace",
+	"editor.fontSize": 13,
+	"editor.renderWhitespace": "boundary"
 }
