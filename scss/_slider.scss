@@ -2,11 +2,37 @@
 	&__item {
 		width: 335px;
 		height: 402px;
-		object-fit: cover;
 		border-radius: 35px;
-		&.active {
-			width: 350px;
-			height: 456px;
-		}
+		margin-top: 27px;
+		transition: 0.2s ease-in; // Прыгает страница
 	}
+	&__btn {
+		position: absolute;
+		top: 50%;
+		transform: translateY(-50%);
+		z-index: 9;
+		display: block;
+		width: 68px;
+		height: 68px;
+		border-radius: 50%;
+
+		display: flex;
+		align-items: center;
+		background: $backgroundBtn;
+	}
+	&__btn-prev {
+		left: -27px;
+		padding-left: 26px;
+		justify-content: flex-start;
+	}
+	&__btn-next {
+		right: -27px;
+		padding-right: 26px;
+		justify-content: flex-end;
+	}
+}
+.slider .center .slider__item {
+	margin-top: 0;
+	width: 350px;
+	height: 456px;
 }

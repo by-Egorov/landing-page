@@ -1,12 +1,11 @@
-@import './nullstyle';
-@import './variable';
-@import './settings';
-@import './menu';
-@import './HeaderContent';
-@import './main';
-@import './slider';
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
-
+@import "./nullstyle";
+@import "./variable";
+@import "./settings";
+@import "./menu";
+@import "./HeaderContent";
+@import "./main";
+@import "./slider";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 
 .header {
 	position: relative;
@@ -23,7 +22,7 @@
 		bottom: 0;
 		width: 100%;
 		height: 96px;
-		background-image: url('../images/header-bottom.svg');
+		background-image: url("../images/header-bottom.svg");
 	}
 
 	&__inner {
@@ -57,7 +56,8 @@
 	&__img {
 		flex-grow: 1;
 		position: relative;
-		background-image: url('../images/el-1.svg'), url('../images/el-3.svg'), url('../images/el-4.svg');
+		background-image: url("../images/el-1.svg"), url("../images/el-3.svg"),
+			url("../images/el-4.svg");
 		background-repeat: no-repeat;
 		background-position: left 81px, right 100px, bottom right;
 

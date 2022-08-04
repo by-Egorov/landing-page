@@ -4,7 +4,7 @@
 		padding-top: 86px;
 		min-width: 592px;
 		max-width: 592px;
-		background-image: url('../images/el-2.svg');
+		background-image: url("../images/el-2.svg");
 		background-repeat: no-repeat;
 		background-position: bottom right;
 	}
@@ -37,11 +37,11 @@
 		font-size: 15px;
 		font-weight: 500;
 		cursor: pointer;
-		transition: color .3s ease-in-out;
+		transition: color 0.3s ease-in-out;
 
 		&:hover {
 			color: #ece1be;
-			transition: color .3s ease-in-out;
+			transition: color 0.3s ease-in-out;
 		}
 
 		&:active {

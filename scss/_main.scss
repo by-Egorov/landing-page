@@ -1,5 +1,9 @@
+main {
+	min-height: 650px;
+}
+
 .destinations {
-	padding: 96px 0 100px;
+	margin: 96px 0 100px;
 	overflow-x: hidden;
 
 	&__row {
@@ -31,13 +35,13 @@
 		font-size: 15px;
 		font-weight: 500;
 		cursor: pointer;
-		transition: color .3s ease-in-out;
-	
+		transition: color 0.3s ease-in-out;
+
 		&:hover {
 			color: #ece1be;
-			transition: color .3s ease-in-out;
+			transition: color 0.3s ease-in-out;
 		}
-	
+
 		&:active {
 			position: relative;
 			top: 1px;
@@ -47,5 +51,6 @@
 	&__slider {
 		width: 1110px;
 		flex-shrink: 0;
+		position: relative;
 	}
 }
