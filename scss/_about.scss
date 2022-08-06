@@ -1,0 +1,57 @@
+.about {
+	&__inner {
+		display: flex;
+		column-gap: 53px;
+	}
+	&__img {
+		object-fit: cover;
+		img {
+			border-radius: 35px;
+		}
+	}
+	&__content {
+		color: $colorBlack;
+		width: 565px;
+	}
+	&__content-title {
+		font-size: 45px;
+		line-height: 68px;
+	}
+	&__content-icon {
+		position: relative;
+		top: 0;
+		left: 0;
+		width: 134px;
+		height: 134px;
+		background-color: orangered;
+		border-radius: 50%;
+		& img {
+		
+		}
+	}
+	&__content-text {
+		font-size: 22px;
+		line-height: 33px;
+		opacity: 0.5;
+	}
+	&__content-rating {
+	}
+}
+
+.country {
+	display: flex;
+	align-items: center;
+	margin-bottom: 37px;
+}
+.place {
+	margin-left: 33px;
+	&__name {
+		font-size: 33px;
+		line-height: 50px;
+	}
+	&__adress {
+		font-size: 25px;
+		line-height: 38px;
+		opacity: .5;
+	}
+}

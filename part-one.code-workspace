@@ -1,0 +1,74 @@
+{
+	"folders": [
+		{
+			"path": "../../new-site"
+		}
+	],
+	"settings": {
+		"workbench.startupEditor": "newUntitledFile",
+		"editor.minimap.enabled": false,
+		"editor.smoothScrolling": true,
+		"files.autoSave": "afterDelay",
+		"breadcrumbs.enabled": false,
+		"files.defaultLanguage": "html",
+		"editor.detectIndentation": false,
+		"editor.wordWrap": "on",
+		"editor.glyphMargin": true,
+		"editor.hover.enabled": false, // отображение подсказок
+		"terminal.integrated.fontSize": 15,
+		"editor.lineHeight": 23,
+		"editor.insertSpaces": false,
+		"editor.linkedEditing": true,
+		"ecsstractor_port.add_comment": false,
+		"ecsstractor_port.empty_line_before_nested_selector": false,
+		"ecsstractor_port.bem_nesting": true,
+		"liveServer.settings.donotVerifyTags": true,
+		"liveSassCompile.settings.generateMap": false,
+		"liveSassCompile.settings.formats": [
+			{
+				"format": "expanded",
+				"extensionName": ".css",
+				"savePath": "~/../css"
+			}
+		],
+		"liveSassCompile.settings.excludeList": [
+			"/**/node_modules/**",
+			"/.vscode/**"
+		],
+		"workbench.colorTheme": "GitHub Plus",
+		// "workbench.productIconTheme": "bootstrap-product-icons",
+		"workbench.iconTheme": "vs-seti",
+		"explorer.confirmDragAndDrop": false,
+		"editor.tabSize": 3,
+		"editor.renderWhitespace": "boundary",
+		"editor.fontSize": 14,
+		// "editor.fontFamily": "'Consolas', 'Courier New', monospace",
+		"editor.fontFamily": "'Consolas'",
+		// "editor.fontFamily": "'JetBrains Mono', monospace",
+		"liveServer.settings.multiRootWorkspaceName": "Clients-application-feature-media",
+		
+		"editor.cursorStyle": "underline",
+		"editor.fontLigatures": true,
+		"editor.cursorBlinking": "phase",
+		"terminal.integrated.cursorStyle": "block",
+		"terminal.integrated.cursorBlinking": true,
+		"editor.cursorSmoothCaretAnimation": true,
+		"editor.multiCursorModifier": "ctrlCmd",
+		"prettier.useTabs": true,
+		"emmet.triggerExpansionOnTab": true,
+		"editor.bracketPairColorization.independentColorPoolPerBracketType": false,
+		"editor.defaultFormatter": "esbenp.prettier-vscode",
+	
+	// Color custom
+
+		"workbench.colorCustomizations": {
+			"editorCursor.foreground": "#FF7B4E",
+			"terminalCursor.foreground": "#FF7B4E",
+			"editorCursor.background": "#000",
+			"terminalCursor.background": "#000",
+		},
+		"editor.semanticTokenColorCustomizations": {
+			"enabled": false
+		}
+	}
+}

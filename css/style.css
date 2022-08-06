@@ -112,7 +112,7 @@ a {
 .btn {
   display: inline-block;
   padding: 13px 44px;
-  background: linear-gradient(129.54deg, #FF7B4E 15.57%, #FF584E 95.03%), #8B8B8B;
+  background: linear-gradient(129.54deg, #ff7b4e 15.57%, #ff584e 95.03%), #8b8b8b;
   color: #f6f6f6;
   border-radius: 100px;
   font-size: 15px;
@@ -191,7 +191,7 @@ a {
 .header__btn {
   display: inline-block;
   padding: 27px 47px;
-  background: linear-gradient(129.54deg, #FF7B4E 15.57%, #FF584E 95.03%), #8B8B8B;
+  background: linear-gradient(129.54deg, #ff7b4e 15.57%, #ff584e 95.03%), #8b8b8b;
   color: #f6f6f6;
   border-radius: 27px;
   font-size: 15px;
@@ -234,7 +234,7 @@ main {
 .destinations__btn {
   display: inline-block;
   padding: 25px 45px;
-  background: linear-gradient(129.54deg, #FF7B4E 15.57%, #FF584E 95.03%), #8B8B8B;
+  background: linear-gradient(129.54deg, #ff7b4e 15.57%, #ff584e 95.03%), #8b8b8b;
   color: #f6f6f6;
   border-radius: 27px;
   font-size: 15px;
@@ -274,7 +274,7 @@ main {
   border-radius: 50%;
   display: flex;
   align-items: center;
-  background: linear-gradient(129.54deg, #FF7B4E 15.57%, #FF584E 95.03%), #8B8B8B;
+  background: linear-gradient(129.54deg, #ff7b4e 15.57%, #ff584e 95.03%), #8b8b8b;
 }
 .slider__btn-prev {
   left: -27px;
@@ -291,6 +291,59 @@ main {
   margin-top: 0;
   width: 350px;
   height: 456px;
+}
+
+.about__inner {
+  display: flex;
+  -moz-column-gap: 53px;
+       column-gap: 53px;
+}
+.about__img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.about__img img {
+  border-radius: 35px;
+}
+.about__content {
+  color: #0f1f1c;
+  width: 565px;
+}
+.about__content-title {
+  font-size: 45px;
+  line-height: 68px;
+}
+.about__content-icon {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 134px;
+  height: 134px;
+  background-color: orangered;
+  border-radius: 50%;
+}
+.about__content-text {
+  font-size: 22px;
+  line-height: 33px;
+  opacity: 0.5;
+}
+.country {
+  display: flex;
+  align-items: center;
+  margin-bottom: 37px;
+}
+
+.place {
+  margin-left: 33px;
+}
+.place__name {
+  font-size: 33px;
+  line-height: 50px;
+}
+.place__adress {
+  font-size: 25px;
+  line-height: 38px;
+  opacity: 0.5;
 }
 
 .header {
