@@ -35,7 +35,7 @@
 			"/**/node_modules/**",
 			"/.vscode/**"
 		],
-		"workbench.colorTheme": "GitHub Plus",
+		"workbench.colorTheme": "One Dark Pro",
 		// "workbench.productIconTheme": "bootstrap-product-icons",
 		"workbench.iconTheme": "vs-seti",
 		"explorer.confirmDragAndDrop": false,
@@ -46,7 +46,7 @@
 		"editor.fontFamily": "'Consolas'",
 		// "editor.fontFamily": "'JetBrains Mono', monospace",
 		"liveServer.settings.multiRootWorkspaceName": "Clients-application-feature-media",
-		
+
 		"editor.cursorStyle": "underline",
 		"editor.fontLigatures": true,
 		"editor.cursorBlinking": "phase",
@@ -58,17 +58,41 @@
 		"emmet.triggerExpansionOnTab": true,
 		"editor.bracketPairColorization.independentColorPoolPerBracketType": false,
 		"editor.defaultFormatter": "esbenp.prettier-vscode",
-	
-	// Color custom
+
+		// Color custom
 
 		"workbench.colorCustomizations": {
 			"editorCursor.foreground": "#FF7B4E",
 			"terminalCursor.foreground": "#FF7B4E",
 			"editorCursor.background": "#000",
-			"terminalCursor.background": "#000",
+			"terminalCursor.background": "#000"
 		},
 		"editor.semanticTokenColorCustomizations": {
 			"enabled": false
+		},
+		"editor.tokenColorCustomizations": {
+			"[One Dark Pro]": {
+				"textMateRules": [
+					{
+						"scope": ["entity.other.attribute-name.html"],
+						"settings": {
+							"foreground": "#85b36f"
+						}
+					},
+					{
+						"scope": ["string.quoted.double.html"],
+						"settings": {
+							"foreground": "#d08f60"
+						}
+					},
+					{
+						"scope": ["punctuation.definition.entity.css", "entity.other.attribute-name.class.css"],
+						"settings": {
+							"foreground": "#85b36f"
+						}
+					}
+				]
+			}
 		}
 	}
 }

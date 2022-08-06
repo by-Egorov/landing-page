@@ -1,7 +1,7 @@
 .about {
 	&__inner {
 		display: flex;
-		column-gap: 53px;
+		column-gap: 68px;
 	}
 	&__img {
 		object-fit: cover;
@@ -16,6 +16,7 @@
 	&__content-title {
 		font-size: 45px;
 		line-height: 68px;
+		margin-bottom: 53px;
 	}
 	&__content-icon {
 		position: relative;
@@ -25,23 +26,25 @@
 		height: 134px;
 		background-color: orangered;
 		border-radius: 50%;
-		& img {
-		
+		img {
+			width: 100%;
+			position: absolute;
+			top: -47px;
+			left: -11px;
 		}
 	}
 	&__content-text {
 		font-size: 22px;
 		line-height: 33px;
 		opacity: 0.5;
-	}
-	&__content-rating {
+		margin-bottom: 30px;
 	}
 }
 
 .country {
 	display: flex;
 	align-items: center;
-	margin-bottom: 37px;
+	margin-bottom: 57px;
 }
 .place {
 	margin-left: 33px;
@@ -52,6 +55,6 @@
 	&__adress {
 		font-size: 25px;
 		line-height: 38px;
-		opacity: .5;
+		opacity: 0.5;
 	}
 }
