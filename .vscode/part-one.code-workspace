@@ -37,7 +37,7 @@
 		],
 		"workbench.colorTheme": "One Dark Pro",
 		// "workbench.productIconTheme": "bootstrap-product-icons",
-		"workbench.iconTheme": "vs-seti",
+		"workbench.iconTheme": "vscode-icons",
 		"explorer.confirmDragAndDrop": false,
 		"editor.tabSize": 3,
 		"editor.renderWhitespace": "boundary",
@@ -86,7 +86,10 @@
 						}
 					},
 					{
-						"scope": ["punctuation.definition.entity.css", "entity.other.attribute-name.class.css"],
+						"scope": [
+							"punctuation.definition.entity.css",
+							"entity.other.attribute-name.class.css"
+						],
 						"settings": {
 							"foreground": "#85b36f"
 						}

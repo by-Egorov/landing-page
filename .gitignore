@@ -3,3 +3,4 @@
 readme.md
 .DS_Store
 /.idea
+.eslintrc.js

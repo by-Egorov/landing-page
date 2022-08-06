@@ -4,7 +4,7 @@ owl.owlCarousel({
 	loop: true,
 	margin: 30,
 	startPosition: 1, // С какого слайда начинается
-	items: 3,
+	items: 3
 })
 $('.slider__btn-prev').click(function () {
 	owl.trigger('prev.owl.carousel')
