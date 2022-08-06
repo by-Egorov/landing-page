@@ -24,7 +24,7 @@
 		left: 0;
 		width: 134px;
 		height: 134px;
-		background-color: orangered;
+		background: $backgroundBtn;
 		border-radius: 50%;
 		img {
 			width: 100%;
@@ -57,4 +57,67 @@
 		line-height: 38px;
 		opacity: 0.5;
 	}
+}
+.subscribe {
+	margin-top: 121px;
+	margin-bottom: 106px;
+	&__inner {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+	&__title {
+		font-weight: 600;
+		max-width: 495px;
+		text-align: center;
+		margin-bottom: 60px;
+	}
+	&__form-email {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		width: 800px;
+		min-height: 129px;
+		background: linear-gradient(0deg, #ffffff, #ffffff), #c4c4c4;
+		border-radius: 35px;
+		padding: 12px 15px 12px 46px;
+	}
+	&__form-email-input {
+		display: flex;
+		input {
+			width: 253px;
+			padding: 5px;
+			color: $colorBlackRgba;
+			font-size: 24px;
+			line-height: 36px;
+		}
+	}
+	&__btn {
+		font-size: 25px;
+		line-height: 38px;
+		padding: 35px 87px;
+	}
+}
+.footer {
+	padding-bottom: 74px;
+	&__logo {
+		a {
+			color: #ff7c4e;
+		}
+	}
+	&__list {
+		& a.active:after,
+		& a:hover:after {
+			background: $backgroundBtn;
+		}
+	}
+	&__item {
+		a {
+			color: $colorBlackRgba;
+		}
+	}
+}
+.footer__button-normal {
+	color: $colorBlackRgba;
 }
