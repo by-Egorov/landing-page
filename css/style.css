@@ -432,6 +432,9 @@ main {
   height: 96px;
   background-image: url("../images/header-bottom.svg");
 }
+.header__burger {
+  display: none;
+}
 .header__inner {
   display: flex;
   flex-direction: column;

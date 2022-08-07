@@ -25,7 +25,9 @@
 		height: 96px;
 		background-image: url("../images/header-bottom.svg");
 	}
-
+	&__burger {
+		display: none;
+	}
 	&__inner {
 		display: flex;
 		flex-direction: column;
