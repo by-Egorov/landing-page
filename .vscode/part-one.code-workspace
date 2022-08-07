@@ -2,6 +2,9 @@
 	"folders": [
 		{
 			"path": "../../new-site"
+		},
+		{
+			"path": "../../adaptiveHeader"
 		}
 	],
 	"settings": {
@@ -45,7 +48,7 @@
 		// "editor.fontFamily": "'Consolas', 'Courier New', monospace",
 		"editor.fontFamily": "'Consolas'",
 		// "editor.fontFamily": "'JetBrains Mono', monospace",
-		"liveServer.settings.multiRootWorkspaceName": "Clients-application-feature-media",
+		"liveServer.settings.multiRootWorkspaceName": "adaptiveHeader",
 
 		"editor.cursorStyle": "underline",
 		"editor.fontLigatures": true,
