@@ -189,13 +189,16 @@
 	.exploring {
 		margin-top: 125px;
 	}
+
 	.exploring__body:after {
 		display: none;
-  }
-  .exploring__text {
-	padding: 0 10px;
-	text-align: center;
-}
+	}
+
+	.exploring__text {
+		padding: 0 10px;
+		text-align: center;
+	}
+
 	.subscribe__title {
 		font-weight: 500;
 	}
@@ -227,6 +230,24 @@
 	.footer__button-normal,
 	.footer__button-active {
 		display: none;
+	}
+}
+
+@media (max-width : 576px) {
+	.container, .container-right {
+		padding:0 5px;
+	}
+	.header__content {
+		min-width: 404px;
+	}
+
+	.header__btn {
+		position: absolute;
+		bottom: 45px;
+		left: 110px;
+	}
+	.about__img img {
+		object-fit: contain;
 	}
 }
 
