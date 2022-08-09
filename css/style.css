@@ -224,6 +224,7 @@ main {
 }
 .destinations__content {
   max-width: 456px;
+  flex-shrink: 0;
 }
 .destinations__title span {
   font-size: 30px;
@@ -415,6 +416,12 @@ main {
   color: rgba(15, 31, 28, 0.5);
 }
 
+object {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
 .header {
   position: relative;
   min-height: 940px;
@@ -429,8 +436,7 @@ main {
   left: 0;
   bottom: 0;
   width: 100%;
-  height: 96px;
-  background-image: url("../images/header-bottom.svg");
+  min-height: 96px;
 }
 .header__burger {
   display: none;
@@ -517,4 +523,8 @@ main {
   opacity: 0.5;
   margin-top: 30px;
   margin-bottom: 85px;
+}
+
+.footer__go-back {
+  display: none;
 }

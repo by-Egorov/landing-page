@@ -4,22 +4,18 @@ owl.owlCarousel({
 	loop: true,
 	margin: 30,
 	startPosition: 1, // С какого слайда начинается
-	items: 2,
-	responsiveClass: true,
-	responsive: {
-		576: {
-			items: 2,
-			center: false
-		}
-	}
+	items: 3
+
 })
+
+
+
 $('.slider__btn-prev').click(function () {
 	owl.trigger('prev.owl.carousel')
 })
 $('.slider__btn-next').click(function () {
 	owl.trigger('next.owl.carousel')
 })
-
 
 const headerBurger = document.querySelector('.header__burger')
 const headerMenu = document.querySelector('.header__menu')

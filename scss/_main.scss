@@ -13,6 +13,7 @@ main {
 
 	&__content {
 		max-width: 456px;
+		flex-shrink: 0;
 	}
 
 	&__title {
