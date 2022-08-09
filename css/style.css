@@ -254,7 +254,6 @@ main {
 }
 .destinations__slider {
   width: 1110px;
-  flex-shrink: 0;
   position: relative;
 }
 
@@ -429,14 +428,6 @@ object {
   background: linear-gradient(132.05deg, #428e5f -17.38%, #112120 78.4%), #204434;
   color: #f6f6f6;
   overflow: hidden;
-}
-.header:after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  min-height: 96px;
 }
 .header__burger {
   display: none;

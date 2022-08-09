@@ -22,16 +22,16 @@ object {
 	color: $colorWhite;
 	overflow: hidden;
 
-	&:after {
-		content: "";
-		position: absolute;
-		left: 0;
-		bottom: 0;
-		width: 100%;
-		min-height: 96px;
-		// background-image: url("../images/header-bottom.svg");
-		// background-size: 100%;
-	}
+	// &:after {
+	// 	content: "";
+	// 	position: absolute;
+	// 	left: 0;
+	// 	bottom: 0;
+	// 	width: 100%;
+	// 	min-height: 96px;
+	// 	// background-image: url("../images/header-bottom.svg");
+	// 	// background-size: 100%;
+	// }
 	&__burger {
 		display: none;
 	}
