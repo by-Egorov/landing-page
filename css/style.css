@@ -142,6 +142,10 @@ a {
   opacity: 0.5;
 }
 
+.menu {
+  display: flex;
+  align-items: center;
+}
 .menu__list {
   display: flex;
   -moz-column-gap: 80px;
@@ -448,6 +452,7 @@ object {
   font-weight: 700;
 }
 .header__button {
+  margin-left: 238px;
   display: flex;
   -moz-column-gap: 25px;
        column-gap: 25px;

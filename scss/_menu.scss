@@ -1,4 +1,6 @@
 .menu {
+	display: flex;
+	align-items: center;
 	&__list {
 		display: flex;
 		column-gap: 80px;
