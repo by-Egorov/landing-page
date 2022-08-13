@@ -110,6 +110,10 @@ a {
   color: inherit;
 }
 
+.slider__btn svg {
+  display: none;
+}
+
 .btn {
   display: inline-block;
   padding: 13px 44px;
